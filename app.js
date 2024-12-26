@@ -23,7 +23,7 @@ app.get("/",(req,res)=>{
 });
 
 io.on("connection",function (uniquesocket) {
-    console.log("connected")
+    console.log("connected");
 });
 
 server.listen(3000,function() {
